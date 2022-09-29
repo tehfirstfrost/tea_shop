@@ -1,0 +1,139 @@
+
+
+*{
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    padding: 0;
+    margin: 0;
+}
+
+body, div.mission, .location-items{
+    background-color: rgb(22, 22, 22);
+}
+
+section{
+    margin: 4em auto;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    height: 69px;
+    padding: 1em 2em;
+}
+
+header img{
+    margin-right: auto;
+}
+
+ul li{
+    display: inline-block;
+    margin-left: 2em;
+}
+
+.banner{
+    display: flex;
+}   
+
+.banner-title{
+    font-size: 35px;
+}
+
+div.banner{
+    background-image: url('./images/img-mission-background.jpg');
+    height: 700px;
+    width: 1200px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2em auto;
+}
+
+div.mission{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: .5em 0;
+    opacity: 0.9;
+
+}
+
+
+.month{
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: .5em;
+}
+
+.month-title{
+    font-size: 30px;
+}
+
+div.monthly{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 6em;
+}
+
+
+.month-imgs img{
+    height: 200px;
+    width: 300px;
+    margin: 10px 0;
+}
+
+
+.location-outer{
+    background-image: url('./images/img-locations-background.jpg');
+    height: 600px;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 4em auto;
+}
+
+.location-title{
+    font-size: 30px;
+    margin-bottom: 2em;
+}
+
+.location-inner{
+    max-height: 300px;
+    flex-grow: 1;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.location-items{
+    max-width: 300px; 
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-around;
+    opacity: 0.9;
+
+}
+
+.footer-title{
+    margin-bottom: 1em;
+}
+.footer{
+    text-align: center;
+    line-height: 2.5;
+    margin: 2em auto;
+}
+
+.copyright{
+    font-size: 18px;
+}
